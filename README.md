@@ -1,5 +1,5 @@
 # Atlántico
-    Traditional and new Galician seafood cuisine web page
+    Traditional and new Galician-Uruguayan cuisine web page
 
     ⭐ Star us on GitHub — your support motivates us a lot! 🙏😊
 
