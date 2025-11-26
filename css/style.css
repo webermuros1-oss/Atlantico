@@ -10,21 +10,26 @@ body {
 }
 h1{
     text-align: center;
-    color:#A74B66 ;
-    
+    color:#ECD88C ;
+    font-family:  Arial, sans-serif;
 }
 
 .suso {
     text-align: center;
+    font-family:  Arial, sans-serif;
+    color: #295B72;
 }
 
 .suso img {
     width: 100%;
     border-radius: 10px;
+
 }
 
 .xavier {
     text-align: center;
+    font-family:  Arial, sans-serif;
+    color: #295B72;
 }
 
 .xavier img {
@@ -34,6 +39,8 @@ h1{
 
 .heber {
     text-align: center;
+    font-family:  Arial, sans-serif;
+    color: #295B72;
 }
 
 .heber img {
@@ -42,6 +49,8 @@ h1{
 }
 .juanlu {
     text-align: center;
+    font-family:  Arial, sans-serif;
+    color: #295B72;
 }
 
 .juanlu img {
@@ -50,6 +59,8 @@ h1{
 }
 .facundo {
     text-align: center;
+    font-family:  Arial, sans-serif;
+    color: #295B72;
 }
 
 .facundo img {
