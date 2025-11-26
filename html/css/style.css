@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: wheat;
+}
+
+.imageEvents{
+display: flex;
+    justify-content: center;  
+    align-items: center;      
+}
+
+
+.text-2{
+    display: flex;
+    justify-content: center;  /* horizontal */
+         /* vertical */
+    height: 100vh;
 }
