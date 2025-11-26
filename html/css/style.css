@@ -8,17 +8,22 @@
 body{
     background-color: wheat;
 }
-
+.contenedor{
+    display: flex;
+    justify-items: center;
+}
 .imageEvents{
 display: flex;
     justify-content: center;  
     align-items: center;      
 }
 
+.contenedor1{
+text-align: center;
+}
+
+
 
 .text-2{
-    display: flex;
-    justify-content: center;  /* horizontal */
-         /* vertical */
-    height: 100vh;
+    text-align: center;
 }
