@@ -1,0 +1,58 @@
+body {
+    background-color: #9CBDC6;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color:#A74B66 ;
+    
+}
+
+.suso {
+    text-align: center;
+}
+
+.suso img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.xavier {
+    text-align: center;
+}
+
+.xavier img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.heber {
+    text-align: center;
+}
+
+.heber img {
+    width: 100%;
+    border-radius: 10px;
+}
+.juanlu {
+    text-align: center;
+}
+
+.juanlu img {
+    width: 100%;
+    border-radius: 10px;
+}
+.facundo {
+    text-align: center;
+}
+
+.facundo img {
+    width: 100%;
+    border-radius: 10px;
+}
