@@ -1,0 +1,103 @@
+body{
+    background-color: #9CBDC6;
+}
+
+h1{
+    color: #295B72;
+}
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #295B72;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9CBDC6;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #c0392b;
+}
+
+.btn-reserva {
+    padding: 10px 15px;
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-reserva:hover {
+    background-color: #a43226;
+}
+
+main {
+    min-height: 100vh;          /* Ocupa toda la pantalla */
+    display: flex;
+    justify-content: center;   /* Centrado horizontal */
+    align-items: center;       /* Centrado vertical */
+    background-color: #f2f2f2;
+}
+
+.formulary {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;          /* Tamaño máximo del formulario */
+}
+
+.formulary h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulary label {
+    display: block;
+    margin-top: 10px;
+}
+
+.formulary input,
+.formulary textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.formulary input[type="submit"] {
+    margin-top: 15px;
+    width: 100%;
+    cursor: pointer;
+}
