@@ -1,6 +1,6 @@
 # Atlántico
     Traditional and new Galician-Uruguayan cuisine web page
-
+<img width="1332" height="782" alt="screen" src="https://github.com/user-attachments/assets/d66434a5-b601-47e5-9b86-3c3de943dba5" />
     ⭐ Star us on GitHub — your support motivates us a lot! 🙏😊
 
 ## Table of Contents
