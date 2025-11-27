@@ -1,0 +1,24 @@
+body {
+    background-color: #9CBDC6;}
+.carousel-item img {
+height: 500px;
+object-fit: cover;
+}
+
+.carousel-caption {background-color: rgba(0, 0, 0, 0.6); 
+padding: 15px;
+border-radius: 8px;
+bottom: 20px;
+color: hsl(328, 54%, 56%); 
+}
+.carousel-caption h3 {
+font-size: 1.75rem; 
+font-weight: 600; 
+margin-bottom: 8px;
+color: #ffffff;
+}
+.carousel-caption p {
+font-size: 1.1rem; 
+margin-bottom: 0;
+color: #ffffff;
+}
