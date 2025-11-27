@@ -30,8 +30,10 @@
 
     
     <main>
-            <h1>FORMULARIO DE CONTACTO</h1>
-            <form action="mailto:contacto@atlantico.gal" method="post" enctype="text/plain"></form>
+    <section class="formulary">
+        <h1>FORMULARIO DE CONTACTO</h1>
+
+        <form action="mailto:contacto@atlantico.gal" method="post" enctype="text/plain">
             
             <label>Nombre:</label>
             <input type="text" name="name" required>
@@ -40,17 +42,21 @@
             <label>Apellidos:</label>
             <input type="text" name="surname" required>
             <br>
+
             <label>E-mail:</label>
-            <input type="mail" name="mail" required>
+            <input type="email" name="mail" required>
             <br>
+            <label>Petición:</label>
+            <br>
+            <textarea name="message" rows="5" cols="30" placeholder="Escribe aquí tu mensaje..." required></textarea>
+            <br><br>
+            
 
+            <input type="submit" value="Enviar formulario">
 
-
-            <input type="submit" value="enviar formulario">
-
-
-
-    </main>
+        </form>
+    </section>
+</main>
 
 
 

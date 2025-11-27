@@ -56,3 +56,9 @@ body{
 .btn-reserva:hover {
     background-color: #a43226;
 }
+
+.formulary{
+    display: grid;
+    text-align: center;
+    
+}
