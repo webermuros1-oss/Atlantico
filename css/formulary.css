@@ -2,6 +2,9 @@ body{
     background-color: #9CBDC6;
 }
 
+h1{
+    color: #295B72;
+}
 .top-bar {
     background-color: #333;
     color: white;
@@ -57,8 +60,44 @@ body{
     background-color: #a43226;
 }
 
-.formulary{
-    display: grid;
+main {
+    min-height: 100vh;          /* Ocupa toda la pantalla */
+    display: flex;
+    justify-content: center;   /* Centrado horizontal */
+    align-items: center;       /* Centrado vertical */
+    background-color: #f2f2f2;
+}
+
+.formulary {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;          /* Tamaño máximo del formulario */
+}
+
+.formulary h1 {
     text-align: center;
-    
+    margin-bottom: 20px;
+}
+
+.formulary label {
+    display: block;
+    margin-top: 10px;
+}
+
+.formulary input,
+.formulary textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.formulary input[type="submit"] {
+    margin-top: 15px;
+    width: 100%;
+    cursor: pointer;
 }
