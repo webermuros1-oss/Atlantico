@@ -1,0 +1,28 @@
+body{
+    background-color: #9CBDC6;
+}
+
+
+.carta{
+    color: #295B72;
+    display: flex;
+    justify-content: center;
+}
+
+.principales{
+        color: #295B72;
+    display: flex;
+    justify-content: center;
+}
+
+.postres{
+        color: #295B72;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    color: #A74B66;
+    display: flex;
+    justify-content: center;
+}
