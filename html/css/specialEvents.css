@@ -1,51 +1,119 @@
 * {
     margin: 1;
-    padding:1;
+    padding: 1;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     background-color: #9CBDB6;
 }
 
-h1{
-    text-align: center;
-    color:#ECD88C ;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-h2{
+
+
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #c0392b;
+}
+
+.btn-reserva {
+    padding: 10px 15px;
+    background-color: #c0392b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-reserva:hover {
+    background-color: #a43226;
+}
+
+
+
+
+h1 {
     text-align: center;
-    color:#ECD88C ;
+    color: #ECD88C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4{
+h2 {
     text-align: center;
-    color:#A74B66 ;
-    font-family: Arial, Helvetica, sans-serif; 
+    color: #ECD88C;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.contenedor{background-color: #295B72;
+
+h4 {
+    text-align: center;
+    color: #A74B66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    background-color: #295B72;
     display: flex;
     justify-items: center;
 }
-.imageEvents{
-display: flex;
-    justify-content: center;  
-    align-items: center;      
+
+.imageEvents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.contenedor1{
+.contenedor1 {
     background-color: #295B72;
     border: 2px solid #9CBDB6;
-    border-radius:3% solid black;
+    border-radius: 3% solid black;
     padding: 20px;
 }
 
-.contenedor2{
+.contenedor2 {
     background-color: #295B72;
     border: 2px solid #9CBDB6;
-    border-radius:3% solid black;
+    border-radius: 3% solid black;
     color: #f1f4f5;
 }
