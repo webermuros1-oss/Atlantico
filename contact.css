@@ -1,0 +1,12 @@
+.firstPart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+.sectionForm {
+    display: grid;
+    align-items: center;
+    grid-column: 30% 70%;
+}
+
+
