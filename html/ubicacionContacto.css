@@ -1,7 +1,8 @@
-.container{
+.containerChange{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 16px;
 }
 
 .container div {
