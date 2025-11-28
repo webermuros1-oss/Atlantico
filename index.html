@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
     <title>Atlantico</title>
 </head>
 <body>
@@ -14,19 +15,81 @@
             <div class="logo">Atlantico</div>
             <ul class="menu">
                 <li><a href="../index.html" class="btn btn-info">Principal</a></li>
-                <li><a href="#" class="btn btn-info">Carta</a></li>
-                <li><a href="#" class="btn btn-info">Reservas</a></li>
+                <li><a href="html/menu.html" class="btn btn-info">Carta</a></li>
+                <li><a href="html/specialEvents.html" class="btn btn-info">Reservas</a></li>
                 <li><a href="html/aboutUs.html" class="btn btn-info">Sobre Nosotros</a></li>
-                <li><a href="#" class="btn btn-info">Contacto</a></li>
+                <li><a href="html/ubicacionContacto.html" class="btn btn-info">Contacto</a></li>
             </ul>
             <a class="btn btn-primary active" href="#">Reservar Mesa</a>
         </nav>
     </header>
-
     <main>
-        <!-- Contenido principal -->
+        <section class="landingMain">
+            <h1><a name="Start"></a>Atlántico</h1>
+            <p>Un pequeño texto introductorio, arreglarlo después</p>
+            <a href="#Start" class="importantLink">Reservar</a>
+            <a href="#Start" class="importantLink">Pedir</a>
+        </section>
+        <section class="second">
+                <div class="containerFlex">
+                    <div class="text">
+                        <h2>Nosotros</h2>
+                        <p>Bienvenidos a Atlántico, donde la brisa salada de la costa gallega se encuentra con el ardiente espíritu de la parrilla uruguaya. En este rincón único de Carnota, hemos fusionado lo mejor de dos culturas gastronómicas: la riqueza del producto local de Galicia, desde nuestros excepcionales mariscos hasta las carnes más selectas, y la maestría del asado uruguayo. Prepárense para una experiencia inolvidable donde los cortes de carne a la brasa, cocinados a la perfección sobre leña y carbón, conviven en armonía con los sabores más auténticos de nuestra tierra. ¡Un viaje de ida y vuelta para su paladar!</p>
+                    </div>
+                    <div class="image">
+                        <img src="images/panoramicBeachCarnotaSize.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <section class="second">
+            <h2 class="title-section">Nuestros Platos Estrella (Interactivo)</h2>
+            
+            <div id="dishCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#dishCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#dishCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#dishCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/kaboompics_bourbon-glazed-salmon-2851.jpg" class="d-block w-100" alt="Plato de Asado de Tira Uruguayo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Asado de Tira a la Parrilla</h3>
+                            <p>Un clásico uruguayo. Costillar de ternera cortado fino, cocinado lentamente sobre las brasas para un sabor profundo y una textura tierna. Acompañado de nuestro chimichurri casero.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/kaboompics_bourbon-glazed-salmon-2855.jpg" class="d-block w-100" alt="Plato de Pulpo a la Gallega o 'Polbo á feira'">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Pulpo 'Á Feira' de la Costa</h3>
+                            <p>La esencia de Galicia. Pulpo cocido a la perfección, servido sobre patatas cocidas y aderezado con pimentón de La Vera, aceite de oliva virgen extra y sal gruesa.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/kaboompics_bourbon-glazed-salmon-2860.jpg" class="d-block w-100" alt="Entrecot a la brasa con guarnición de patatas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Entrecot Gallego con Cachelos</h3>
+                            <p>Un corte de nuestra mejor selección, sellado en la brasa para conservar sus jugos. Acompañado de los tradicionales *cachelos* (patatas cocidas) de la comarca.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#dishCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#dishCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+    </section>
+    <section class="centerSection">
+        <div><h2>Contacta con nosotros</h2>
+        <div class="center-button-wrapper">
+                    <a href="#Menu" class="importantLink">Ver Nuestro Menú Completo</a>
+                </div></div>
+    </section>
     </main>
-
     <footer class="text-center text-lg-start text-white" style="background-color: #9ab9ca">
         <div class="container p-4 pb-0">
             <section>
