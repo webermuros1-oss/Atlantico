@@ -46,3 +46,28 @@ h3
     font-size: 2rem;
     font-weight: bold;
 }
+textarea, input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+text {
+    color: #ECD88C;
+    margin-left: 100px;
+    margin-right: auto;
+    
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+p
+{
+    color: #FFFFFF;
+    text-align: justify;
+    margin: 40px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
